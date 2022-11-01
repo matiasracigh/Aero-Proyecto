@@ -2,8 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #3c484e;
+    background-color: #b4b9ca;
+    color: #1e2427;
     font-family: 'Open Sans', sans-serif;
     }
 
@@ -12,6 +12,17 @@ main{
     grid-template-columns: minmax(auto, 976px);
     display: grid;
     justify-content: center;
+}
+
+.Header-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #040e2c;
+}
+
+.Header-main h1{
+    color: #f4f4f4;
 }
 .Categorias{
     display: flex;
